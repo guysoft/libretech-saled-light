@@ -97,7 +97,6 @@ while ($frame_input_data = fread(STDIN, $frame_input_size)){
 		$time_total = 0;
 		$time_last = $time_stop;
 	}
-	usleep(5500);
 	$frame++;
 }
 ?>
